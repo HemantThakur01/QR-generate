@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.QR-CODE{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    flex-wrap: wrap;
+    background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.img-div{
+    /* height: 50vh; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 50px;
+    /* box-shadow: 2px #f64f59; */
+    border-radius: 10px;
+
+}
+.img-div img{
+    /* width: 100%; */
+    border-radius: 5px;
+}
+.form-div{
+    width: 45%;
+    padding: 40px 50px;
+}
+.form-div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 60px;
+    margin-top: 10px;
+}
+
+@media(max-width:768px){
+    .QR-CODE{
+        height: 100%;
+        width: 400px;
+        padding: 0px;
+        display: block;
+    }
+    .img-div{
+        width: 400px;
+        /* padding: 20px; */
+    }
+    .img-div img{
+        width: 100%;
+    }
+    .form-div{
+        width: 400px;
+    }
+    
+}
