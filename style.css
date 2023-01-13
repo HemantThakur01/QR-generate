@@ -37,12 +37,12 @@ padding: 50px;
 }
 .form-div{
     width: 45%;
-    padding: 40px 50px;
+    padding: 30px 50px;
 }
 .form-div p{
-    font-size: 16px;
-    font-weight: 500;
-    padding: 0px 60px;
+    font-size: 8px;
+    font-weight: 400;
+    /* padding: 0px 60px; */
     margin-top: 10px;
 }
 
