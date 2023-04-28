@@ -12,27 +12,24 @@
     justify-content: space-between;
     padding: 40px 80px;
     flex-wrap: wrap;
-    background: #bdc3c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #bdc3c7; 
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+background: linear-gradient(to right, #2c3e50, #bdc3c7); 
 
 }
 .img-div{
-    /* height: 50vh; */
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #12c2e9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #12c2e9;  
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
 padding: 50px;
-    /* box-shadow: 2px #f64f59; */
     border-radius: 10px;
 
 }
 .img-div img{
-    /* width: 100%; */
     border-radius: 5px;
 }
 .form-div{
@@ -42,7 +39,6 @@ padding: 50px;
 .form-div p{
     font-size: 8px;
     font-weight: 400;
-    /* padding: 0px 60px; */
     margin-top: 10px;
 }
 
